@@ -1,23 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Football from './event';
+import CounterComponent from './hooks';
+import Counter from './hooks2';
+
+import Add from './booksevent';
+import Addhook from './bookhooks';
+import Blogs from './formevent&hook';
+
+
+
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <div className="App">
+
+
+{/* <Addhook></Addhook> */}
+
+
+<Blogs></Blogs>
+
+   {/* <Football></Football>
+   <CounterComponent></CounterComponent> */}
+
+    {/* <Effect></Effect>  */}
+
+
+{/* 
+<Counter></Counter> */}
     </div>
   );
 }
