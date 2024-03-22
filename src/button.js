@@ -8,6 +8,6 @@ export function Button() {
 
 
 export function Button2() {
-    return (<button>Click me button2</button>) ;
+    return (<button>mE button2</button>) ;
   }
 
